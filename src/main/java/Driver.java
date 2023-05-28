@@ -17,7 +17,7 @@ public class Driver {
         return transport;
     }
 
-    public void startTheCar(){
+    public void startTheCar() {
         System.out.println(name + " сел в , " + transport);
         transport.start();
     }
