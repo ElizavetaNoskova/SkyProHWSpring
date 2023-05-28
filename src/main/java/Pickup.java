@@ -1,4 +1,4 @@
-public class Pickup extends Transport{
+public class Pickup extends Transport {
     public Pickup(String brand, String model, double engineCapacity) {
         super(brand, model, engineCapacity);
     }

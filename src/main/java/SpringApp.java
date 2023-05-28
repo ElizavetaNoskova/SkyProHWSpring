@@ -10,13 +10,13 @@ public class SpringApp {
         Pickup pickup = context.getBean(Pickup.class);
         pickup.start();
 
-        Driver driverCar = context.getBean("driverCar",Driver.class);
+        Driver driverCar = context.getBean("driverCar", Driver.class);
         driverCar.startTheCar();
 
-        Driver driverBus = context.getBean("driverBus",Driver.class);
+        Driver driverBus = context.getBean("driverBus", Driver.class);
         driverBus.startTheCar();
 
-        Driver driverPickup = context.getBean("driverPickup",Driver.class);
+        Driver driverPickup = context.getBean("driverPickup", Driver.class);
         driverPickup.startTheCar();
     }
 }

@@ -8,7 +8,6 @@ abstract class Transport {
         this.model = model;
         this.engineCapacity = engineCapacity;
     }
-
     public String getBrand() {
         return brand;
     }
@@ -20,13 +19,11 @@ abstract class Transport {
     public double getEngineCapacity() {
         return engineCapacity;
     }
-
     public void setEngineCapacity(double engineCapacity) {
         this.engineCapacity = engineCapacity;
     }
 
     public abstract void start();
-
     @Override
     public String toString() {
         return "Transport{" +
